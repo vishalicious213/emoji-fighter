@@ -3,12 +3,27 @@ body {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     background: linear-gradient(white, blue);
-    height: 100vh;
+    height: 90%;
     color: #e98a1d;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#background {
+    background-image: url("img/01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
 }
 
 h1 {
@@ -19,7 +34,7 @@ h1 {
 }
 
 #stage {
-    width: 100%;
+    width: 90%;
     font-size: 4rem;
     margin-bottom: 2rem;
 }
