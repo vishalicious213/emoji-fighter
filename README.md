@@ -1,6 +1,8 @@
 # EMOJI FIGHTER
 
-Uses the Math.random() and Math.floor() functions to generate an integer and render two emoji characters from an array in a Street Fighter II matchup versus splash screen. After experimenting with Midjourney.ai, random backgrounds are also generated with new fighters.
+This was a Scrimba project that I added onto with customizations. The original project called for us to use the Math.random() and Math.floor() functions to generate an integer and render two emoji characters from an array in a Street Fighter II matchup versus splash screen. 
+
+I completed that, and then after experimenting with Midjourney.ai, I added the ability for random backgrounds to be generated with new fighters.
 
 ## JavaScript concepts used:
 - arrays
